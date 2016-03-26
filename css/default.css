@@ -132,7 +132,8 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background-color: #1f8dd6;
+    background: url("../img/couple-watching-tv.jpg") no-repeat center;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */

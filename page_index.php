@@ -16,12 +16,12 @@
     <body>
         <div class="header">
             <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-                <a class="pure-menu-heading" href="">Your Site</a>
+                <a class="pure-menu-heading" href="">tvtweets</a>
 
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+                    <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">About</a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">TV</a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Movies</a></li>
                 </ul>
             </div>
         </div>
@@ -30,7 +30,7 @@
             <div class="splash">
                 <h1 class="splash-head">Big Bold Text</h1>
                 <p class="splash-subhead">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Browse movies and TV shows based on genre and view related tweets...
                 </p>
                 <p>
                     <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
