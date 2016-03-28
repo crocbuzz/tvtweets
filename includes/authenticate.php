@@ -1,5 +1,7 @@
 <?php
 
+//namespace Abraham\TwitterOAuth;
+
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 $CONSUMER_KEY = 'Eqkj7HpYTMLGdu9AEK1jWEYiX';
@@ -14,8 +16,8 @@ $connection->ssl_verifypeer = TRUE;
 $connection->content_type = 'application/x-www-form-urlencoded';
 
 session_start();
-require ('../twitteroauth/twitteroauth.php');
-require ('../twitteroauth/config.php');
+require ('../twitteroauth/TwitterOAuth.php');
+require ('../twitteroauth/Config.php');
 
 $to = new TwitterOAuth($CONSUMER_KEY, $CONSUMER_SECRET);
 
