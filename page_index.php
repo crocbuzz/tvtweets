@@ -1,3 +1,4 @@
+<?php include("includes/authenticate.php"); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,7 +34,7 @@
                     Browse movies and TV shows based on genre and view related tweets...
                 </p>
                 <p>
-                    <a href="includes/authenticate.php" class="pure-button pure-button-primary">Get Started</a>
+                    <a href="#" class="pure-button pure-button-primary">Get Started</a>
                 </p>
             </div>
         </div>
