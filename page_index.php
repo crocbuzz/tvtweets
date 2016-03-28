@@ -1,4 +1,3 @@
-<?php include("includes/twitter_oauth.php"); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -34,7 +33,7 @@
                     Browse movies and TV shows based on genre and view related tweets...
                 </p>
                 <p>
-                    <a href="<?php print($url); ?>" class="pure-button pure-button-primary">Get Started</a>
+                    <a href="includes/authenticate.php" class="pure-button pure-button-primary">Get Started</a>
                 </p>
             </div>
         </div>
