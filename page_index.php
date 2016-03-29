@@ -1,4 +1,6 @@
-<?php include("includes/authenticate.php"); ?>
+<?php
+include("includes/authenticate.php");
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +23,7 @@
 
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
-                    <li class="pure-menu-item"><a href="#tv" class="pure-menu-link">TV</a></li>
+                    <li class="pure-menu-item"><a href="#movies" class="pure-menu-link">TV</a></li>
                     <li class="pure-menu-item"><a href="#movies" class="pure-menu-link">Movies</a></li>
                 </ul>
             </div>
@@ -31,7 +33,7 @@
             <div class="splash">
                 <h1 class="splash-head">Big Bold Text</h1>
                 <p class="splash-subhead">
-                    Browse movies and TV shows based on genre and view related tweets...
+                    View related tweets based on your favorite movies and TV shows...
                 </p>
                 <p>
                     <a href="#" class="pure-button pure-button-primary">Get Started</a>
@@ -84,6 +86,7 @@
                 </div>
             </div>
 
+
             <div class="ribbon l-box-lrg pure-g">
                 <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
                     <img class="pure-img-responsive" alt="File Icons" width="300" src="img/ucf.png">
@@ -99,40 +102,23 @@
                 </div>
             </div>
 
-            <div class="content">
-                <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+            <div class="content" id="movies">
+                <h2 class="content-head is-center">Search The Database!</h2>
 
                 <div class="pure-g">
-                    <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                        <form class="pure-form pure-form-stacked">
+                    <div class="l-box-lrg pure-u-1">
+                        <form class="pure-form pure-form-stacked" action="includes/search.php" method="get">
                             <fieldset>
 
-                                <label for="name">Your Name</label>
-                                <input id="name" type="text" placeholder="Your Name">
+                                <label for="name">Name of Movie or TV show</label>
+                                <input id="name" type="text" placeholder="Enter the exact title">
 
+                                <label for="year">Year Released (optional)</label>
+                                <input id="year" type="number" minlength="4" maxlength="4" placeholder="YYYY">
 
-                                <label for="email">Your Email</label>
-                                <input id="email" type="email" placeholder="Your Email">
-
-                                <label for="password">Your Password</label>
-                                <input id="password" type="password" placeholder="Your Password">
-
-                                <button type="submit" class="pure-button">Sign Up</button>
+                                <button type="submit" class="pure-button">Search</button>
                             </fieldset>
                         </form>
-                    </div>
-
-                    <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-
-                        <h4>More Information</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
 

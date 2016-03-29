@@ -66,6 +66,11 @@ label {
     margin-bottom: 1em;
 }
 
+.pure-form {
+    width: 40%;
+    margin: 0 auto;
+}
+
 /*
  * -- PURE BUTTON STYLES --
  * I want my pure-button elements to look a little different
@@ -281,3 +286,4 @@ a.pure-button-primary {
         font-size: 300%;
     }
 }
+
