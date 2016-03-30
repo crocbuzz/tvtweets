@@ -111,10 +111,10 @@ include("includes/authenticate.php");
                             <fieldset>
 
                                 <label for="name">Name of Movie or TV show</label>
-                                <input id="name" type="text" placeholder="Enter the exact title">
+                                <input name="name" type="text" placeholder="Enter the exact title">
 
                                 <label for="year">Year Released (optional)</label>
-                                <input id="year" type="number" minlength="4" maxlength="4" placeholder="YYYY">
+                                <input name="year" type="number" minlength="4" maxlength="4" placeholder="YYYY">
 
                                 <button type="submit" class="pure-button">Search</button>
                             </fieldset>
