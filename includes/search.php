@@ -21,24 +21,37 @@ function get_movie_data($movie, $year){
 	return $data;
 }
 
+function write2file($array) {
+	$title = str_replace(' ', '-', $array[1]);
+	$i = 0;
+	$length = count($array) - 1;
+	
+	$fx = fopen("../data/".$title.".txt", "w");
+	for ( $i ; $i <= $length ; $i++) {
+		fwrite($fx, $array[$i]);
+		fwrite($fx, "\n");
+	}
+	fclose($fx);
+}
+
+write2file(get_movie_data($a, $b));
+
+
+
+/*
 function get_tmdb_data($id) {
 	$key = "d4472b0ed28d1f0b5703dffba7eb38f5";
 	
 	$url = "https://api.themoviedb.org/3/find/".$id."?external_source=imdb_id&api_key=".$key;
 	
 	$string = file_get_contents($url);
-	echo $string;
 	$json = json_decode($string);
-	echo $json;
 	
-	$result = $json->movie_results;
+	$result = $json[0]->overview;
 	echo $result;
 }
+*/
 
-
-
-
-get_imdb_id($a, $b);
 
 
 ?>
