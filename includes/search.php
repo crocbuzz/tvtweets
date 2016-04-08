@@ -23,10 +23,11 @@ function get_movie_data($movie, $year){
 
 function write2file($array) {
 	$title = str_replace(' ', '-', $array[1]);
+	$id = $array[0];
 	$i = 0;
 	$length = count($array) - 1;
 	
-	$fx = fopen("../data/".$title.".txt", "w");
+	$fx = fopen("../data/".$id.".txt", "w");
 	for ( $i ; $i <= $length ; $i++) {
 		fwrite($fx, $array[$i]);
 		fwrite($fx, "\n");
