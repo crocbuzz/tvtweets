@@ -17,7 +17,18 @@ $connection->content_type = 'application/x-www-form-urlencoded';
 
 $content = $connection->get("account/verify_credentials");
 
-
+function objectToArray( $object )
+{
+    if( !is_object( $object ) && !is_array( $object ) )
+    {
+        return $object;
+    }
+    if( is_object( $object ) )
+    {
+        $object = get_object_vars( $object );
+    }
+    return array_map( 'objectToArray', $object );
+}
 /*
 session_start();
 
