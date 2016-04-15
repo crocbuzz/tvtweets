@@ -1,13 +1,10 @@
-<?php
-include("includes/authenticate.php");
-?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>TV Tweets</title>
+        <title>Movie Tweets</title>
 
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/pure.min.css">
@@ -19,7 +16,7 @@ include("includes/authenticate.php");
     <body>
         <div class="header">
             <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-                <a class="pure-menu-heading" href="">tvtweets</a>
+                <a class="pure-menu-heading" href="">movietweets</a>
 
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
@@ -33,7 +30,7 @@ include("includes/authenticate.php");
             <div class="splash">
                 <h1 class="splash-head">Big Bold Text</h1>
                 <p class="splash-subhead">
-                    View related tweets based on your favorite movies and TV shows...
+                    View related tweets based on your favorite movies...
                 </p>
                 <p>
                     <a href="#" class="pure-button pure-button-primary">Get Started</a>
@@ -89,7 +86,7 @@ include("includes/authenticate.php");
 
             <div class="ribbon l-box-lrg pure-g">
                 <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                    <img class="pure-img-responsive" alt="File Icons" width="300" src="img/ucf.png">
+                    <img class="pure-img-responsive" alt="File Icons" width="300" src="http://placehold.it/300x200">
                 </div>
                 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
@@ -107,10 +104,10 @@ include("includes/authenticate.php");
 
                 <div class="pure-g">
                     <div class="l-box-lrg pure-u-1">
-                        <form class="pure-form pure-form-stacked" action="includes/search.php" method="get">
+                        <form class="pure-form pure-form-stacked" action="results.php" method="get">
                             <fieldset>
 
-                                <label for="name">Name of Movie or TV show</label>
+                                <label for="name">Name of Movie</label>
                                 <input name="name" type="text" placeholder="Enter the exact title">
 
                                 <label for="year">Year Released (optional)</label>
@@ -125,7 +122,7 @@ include("includes/authenticate.php");
             </div>
 
             <div class="footer l-box is-center">
-                Made with <i class="fa fa-heart"></i> by Croc
+                Made with <i class="fa fa-heart"></i> by Alex Crocker
             </div>
 
         </div>

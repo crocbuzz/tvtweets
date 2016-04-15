@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
     $.ajax({
         url: 'data/movie.txt',
@@ -15,3 +16,4 @@ $(document).ready(function() {
         }
     });
 });
+*/

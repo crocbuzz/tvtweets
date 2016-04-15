@@ -37,7 +37,7 @@ function write2file($array) {
     exit;
 }
 
-write2file(get_movie_data($a, $b));
+
 
 
 
