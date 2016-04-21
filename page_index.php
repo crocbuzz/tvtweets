@@ -20,7 +20,6 @@
 
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
-                    <li class="pure-menu-item"><a href="#movies" class="pure-menu-link">TV</a></li>
                     <li class="pure-menu-item"><a href="#movies" class="pure-menu-link">Movies</a></li>
                 </ul>
             </div>
@@ -33,7 +32,7 @@
                     View related tweets based on your favorite movies...
                 </p>
                 <p>
-                    <a href="#" class="pure-button pure-button-primary">Get Started</a>
+                    <a href="#movies" class="pure-button pure-button-primary">Get Started</a>
                 </p>
             </div>
         </div>
