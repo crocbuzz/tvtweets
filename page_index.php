@@ -27,7 +27,7 @@
 
         <div class="splash-container">
             <div class="splash">
-                <h1 class="splash-head">Big Bold Text</h1>
+                <h1 class="splash-head">Movie Tweets</h1>
                 <p class="splash-subhead">
                     View related tweets based on your favorite movies...
                 </p>
