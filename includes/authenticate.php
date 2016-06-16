@@ -4,11 +4,11 @@ require "vendor/autoload.php";
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-$CONSUMER_KEY = 'Eqkj7HpYTMLGdu9AEK1jWEYiX';
-$CONSUMER_SECRET = 'U07Ckf7sVYdzjBUJ8MrdFTcRNV97isVvZ5DleS6qF1ZJCfyhVB';
+$CONSUMER_KEY = '';
+$CONSUMER_SECRET = '';
 
-$access_token = '615092508-qBpI4tQ9WUN1chpUvyRaft0vVvVIvdfE1UWrOAyW';
-$access_token_secret = 'jAOSQtepuiOIwr63cjS0xxtvNiQzxu4tZfYTjcFZRP7Cr';
+$access_token = '';
+$access_token_secret = '';
 
 $connection = new TwitterOAuth($CONSUMER_KEY, $CONSUMER_SECRET, $access_token, $access_token_secret);
 $connection->host = "https://api.twitter.com/1.1/";
